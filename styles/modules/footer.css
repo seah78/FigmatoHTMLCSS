@@ -12,3 +12,15 @@
     height: 2.25rem;
     margin-left: 3.25rem;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    justify-content: center;
+    padding: 4.75rem 0 4.75rem 0;
+  }
+
+  .footer__icon {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+}

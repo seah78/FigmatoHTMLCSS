@@ -14,3 +14,9 @@
     margin: 0 0 0 0;
     width: 85%;
 }
+
+@media (max-width: 768px) {
+  .contactInfo__text {
+    max-width: 16rem;
+  }
+}

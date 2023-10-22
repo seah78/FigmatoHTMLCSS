@@ -39,3 +39,45 @@
     margin-bottom: 2rem;
     line-height: 2.5rem;
 }
+
+@media (max-width: 768px) {
+  .menu {
+    margin: 0;
+    align-items: center;
+  }
+
+  .menu__subtitle {
+    display: none;
+  }
+
+  .menu__card {
+    width: 19.5rem;
+    padding-bottom: 2rem;
+    margin-top: 2.25rem
+  }
+
+  .menu__icon {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .menu__part {
+    margin-bottom: 0;
+  }
+
+  .menu__partTitle {
+    margin-bottom: 0.5rem;
+  }
+  
+  .menu__partDish {
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .menu__dishDescription {
+    display: none;
+  }
+}
